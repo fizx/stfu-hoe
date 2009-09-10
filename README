@@ -1,0 +1,10 @@
+Tired of some Ruby Gem not building because of a Hoe dependency that it can't resolve?  Are you on Debian, and gem update --system is disabled?  Why jump through hoops to get some unwanted gem running?
+
+Just fake Hoe
+
+> git clone git://github.com/fizx/stfu-hoe.git
+> cd stfu-hoe
+> gem build hoe.gemspec
+> sudo gem install hoe
+
+Violà!
